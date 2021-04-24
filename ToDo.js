@@ -10,6 +10,7 @@ export default class ToDo extends Component{
     };
     render() {
         const { isCompleted, isEditing } = this.state;
+        const { text } = this.props
         return(
             <View style={styles.container}>
                <View style={styles.column}>
